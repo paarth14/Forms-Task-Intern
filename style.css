@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  overflow-y: none;
+}
+
+.form_login {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  /* border: 2px solid red; */
+}
+
+h3 {
+  color: #262928;
+  /* margin-bottom: 6px; */
+  font-size: 32px;
+  padding: 20px 0 20px 0px;
+}
+
+.wholeEmpty {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 13px;
+}
+
+.emptyBox1 {
+  width: 206px;
+  height: 80px;
+  border: 2px solid #90989b;
+  color: #8d8e92;
+  font-weight: bolder;
+  margin-right: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+}
+
+.emptyBox1 img {
+  height: 47px;
+  margin-right: 14px;
+}
+
+.emptyBox2 {
+  width: 206px;
+  height: 80px;
+  border: 2px solid #6577ad;
+  color: #4f6ac2;
+  margin-right: 70px;
+  font-weight: bolder;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+}
+
+.emptyBox2 img {
+  height: 46px;
+  margin-right: 14px;
+}
+
+.sameColor {
+  line-height: 27px;
+  color: rgb(120, 128, 140);
+  /* margin-bottom: 25px; */
+  font-size: 19px;
+  word-spacing: 2px;
+}
+
+#name {
+  height: 58px;
+  border-radius: 4px;
+  width: 473px;
+  margin-top: 10px;
+  border: 2px solid #7f858a;
+}
+
+#location {
+  height: 58px;
+  border-radius: 4px;
+  width: 473px;
+  margin-top: 13px;
+  border: 2px solid #7f858a;
+}
+
+.fname_content {
+  margin-bottom: -46px;
+  position: relative;
+  top: -41px;
+  left: 33px;
+  font-weight: 500;
+}
+
+#pnumber {
+  height: 58px;
+  border-radius: 4px;
+  width: 473px;
+  margin-top: 13px;
+  border: 2px solid #7f858a;
+}
+
+.countryImage {
+  height: 28px;
+  position: relative;
+  left: -27rem;
+  top: 9px;
+}
+
+.p_content {
+  position: relative;
+  top: -44px;
+  left: 114px;
+  font-weight: 500;
+}
+
+.submit {
+  width: 29.8rem;
+  height: 4rem;
+  color: aliceblue;
+  background-color: rgb(57, 96, 246);
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  margin-right: 35px;
+  /* padding-top: 4px; */
+  margin-bottom: 35px;
+  position: absolute;
+  bottom: -30px;
+}
+
+.imageSubmit {
+  position: relative;
+  left: 340px;
+  bottom: 16px;
+  height: 30px;
+}
